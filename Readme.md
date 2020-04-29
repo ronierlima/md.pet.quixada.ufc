@@ -1,3 +1,5 @@
+![Markdown](assets/img/markdown.png)
+
 # O que é Markdown?
 
 * O markdown é uma maneira de estilizar o texto na web.
@@ -9,7 +11,7 @@
   
   * Ainda no Github, você pode usar Markdown no texto das issues, no texto de um pull request e na wiki.
   * Também a maior parte dos geradores de estáticos (Hexo, Jekyll, HarpJS, Docpad, etc.), permitem escrever em Markdown! 
-  * **.md** ou **.markdown**, são as extensões de arquivos **Markdown** 
+  * **.md** ou **.markdown**, são as extensões a  de arquivos **Markdown** 
 
 ## Porque aprender e usar Markdown ?
 
@@ -39,3 +41,15 @@ Markdown | HTML | Saída Renderizada
 Título nível 1 <br> \=============== | \<h1> Título nível 1 \</h1> | <h1>Título nível 1</h1>
 Título nível 2 <br> \------------------------------ | \<h2> Título nível 2 \</h2> | <h2>Título nível 2</h2>
  
+
+## Ênfase 
+
+Você pode dar ênfase, colocando o tex to em negrito ou itálico.
+
+### Negrito
+
+Para negrito, adicione dois asteriscos ou sublinhados antes e depois de uma palavra ou frase. Para destacar em negrito o meio de uma palavra, adicione dois asteriscos sem espaços ao redor das letras.
+
+Markdown | HTML | Saída Renderizada
+---------| -----|------------------
+Eu gosto do texto em \*\*negrito\*\*. |  Eu gosto do texto em \<strong>negrito\</strong>. | Eu gosto do texto em **negrito**.
