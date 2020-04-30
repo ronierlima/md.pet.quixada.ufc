@@ -38,7 +38,7 @@ Para marcar um título, você vai usar **#** a quantidade de vezes que irá repr
  - \#\#\#\#\#\# Título nível 6 | ``<h6>Título nível 6</h6>``
 
 
-## Ênfase 
+## Ênfase
 
 Você pode dar ênfase, colocando o tex to em negrito ou itálico.
 
@@ -88,5 +88,65 @@ A saída renderizada fica assim:
 
 >Somos do PET - Sistemas de Informação
 >>O Campus Quixadá é o mais lindo da UFC.
+
+
+## Listas 
+
+Você pode organizar itens em listas ordenadas e não ordenadas.
+
+### Lista ordenada
+
+Para criar uma lista ordenada, adicione itens de linha com números seguidos por pontos. Os números não precisam estar em ordem numérica, mas a lista deve começar com o número um.
+
+    1. Primeiro item  
+    2. Segundo item
+    3. Terceiro item
+   
+A saída renderizada fica assim:
+
+1. Primeiro item  
+2. Segundo item
+3. Terceiro item
+   
+---
+
+    1. Primeiro item  
+    2. Segundo item
+    3. Terceiro item
+   
+A saída renderizada fica assim:
+
+1. Primeiro item  
+2. Segundo item
+3. Terceiro item
+
+### Lista não ordenada 
+
+Para listas não ordenadas, você pode usar `*`, `+` ou `-`. Veja:
+
+      + Primeiro item  
+      * Segundo item
+      - Terceiro item
+
+A saída renderizada fica assim:
+
++ Primeiro item  
+* Segundo item
+- Terceiro item
+
+### Lista aninhada
+
+Recue um ou mais itens para criar uma lista aninhada.
+
+    - Item 1
+      - Item 1.1
+        -  Item 1.1.1
+
+A saída renderizada fica assim:
+
+- Item 1
+  - Item 1.1
+    -  Item 1.1.1
+  
 
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
