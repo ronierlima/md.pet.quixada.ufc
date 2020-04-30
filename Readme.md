@@ -157,6 +157,18 @@ Para criar um link, coloque o texto do link entre colchetes  e siga-o imediatame
 A saída renderizada fica assim:
 
 [Este é meu GitHub](https://github.com/RonierLima)
+
+### Adicionando títulos
+
+Opcionalmente, você pode adicionar um título para um link. Isso aparecerá como uma dica de ferramenta quando o usuário passar o mouse sobre o link. Para adicionar um título, coloque-o entre parênteses após o URL.
+
+
+    [Este é meu GitHub](https://github.com/RonierLima "Ronier Lima - GitHub")
+
+A saída renderizada fica assim:
+
+[Este é meu GitHub](https://github.com/RonierLima "Ronier Lima - GitHub")
+
   
 
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
