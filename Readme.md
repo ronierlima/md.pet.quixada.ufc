@@ -49,6 +49,44 @@ Para negrito, adicione dois asteriscos ou sublinhados antes e depois de uma pala
 Markdown | HTML | Saída Renderizada
 ---------| -----|------------------
 Eu gosto do texto em \*\*negrito\*\*. |  Eu gosto do texto em \<strong>negrito\</strong>. | Eu gosto do texto em **negrito**.
+
+### Itálico
+
+Para colocar o texto em itálico, adicione um asterisco ou sublinhado antes e depois de uma palavra ou frase.
+
+Markdown | HTML | Saída Renderizada
+---------| -----|------------------
 Prefiro o texto em \*itálico\*. |  Prefiro o texto em \<em>itálico\</em>. | Prefiro o texto em *itálico*.
+
+### Negrito e Itálico
+
+Para enfatizar o texto com negrito e itálico ao mesmo tempo, adicione três asteriscos ou sublinhados antes e depois de uma palavra ou frase.
+
+Markdown | HTML | Saída Renderizada
+---------| -----|------------------
+Uso \*\*\*itálico e negrito\*\*\*. |  Uso \<em>\<strong>itálico e negrito\</strong>\</em> com \<strong>negrito\</strong>. | Uso ***itálico e negrito***..
+
+
+## Citações em bloco
+
+Para criar uma citação em bloco, adicione um `>` na frente de um parágrafo.
+
+    > O Campus Quixadá é o mais lindo da UFC.
+
+A saída renderizada fica assim:
+
+> O Campus Quixadá é o mais lindo da UFC.
+
+## Citações em bloco aninhada
+
+Para criar uma citação em bloco aninhada, adicione dois `>>` na frente de um parágrafo.
+
+    >Somos do PET - Sistemas de Informação
+    >>O Campus Quixadá é o mais lindo da UFC.
+
+A saída renderizada fica assim:
+
+>Somos do PET - Sistemas de Informação
+>>O Campus Quixadá é o mais lindo da UFC.
 
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
