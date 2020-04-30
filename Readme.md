@@ -23,24 +23,20 @@
 
 Para marcar um título, você vai usar **#** a quantidade de vezes que irá representar o nível do título. Exemplo:
 
-Markdown | HTML | Saída Renderizada
----------| -----|------------------
-\# Título nível 1 | \<h1> Título nível 1 \</h1> | <h1>Título nível 1</h1>
-\## Título nível 2 | \<h2> Título nível 2 \</h2> | <h2>Título nível 2</h2>
-\### Título nível 3 | \<h3> Título nível 3 \</h3> | <h3>Título nível 3</h3>
-\#### Título nível 4 | \<h4> Título nível 4 \</h4> | <h4>Título nível 4<h4>
-\##### Título nível 5 | \<h5>  Título nível 5 \</h5> | <h5> Título nível 5 </h5>
-\##### Título nível 6 | \<h6> Título nível 6 \</h6> | <h6>Título nível 6</h6>
+### Markdown | ``HTML``
 
-## Sintaxe alternativa
+ - \# Título nível 1 | ``<h1>Título nível 1\</h1> ``
 
-Como alternativa, na linha abaixo do texto, adicione qualquer número de == caracteres para o nível 1 do cabeçalho ou -- caracteres para o nível 2 do cabeçalho.
+ - \#\# Título nível 2 | ``<h2>Título nível 2</h2>``
 
-Markdown | HTML | Saída Renderizada
----------| -----|------------------
-Título nível 1 <br> \=============== | \<h1> Título nível 1 \</h1> | <h1>Título nível 1</h1>
-Título nível 2 <br> \------------------------------ | \<h2> Título nível 2 \</h2> | <h2>Título nível 2</h2>
- 
+ - \#\#\# Título nível 3 | ``<h3>Título nível 3</h3``
+
+ - \#\#\#\# Título nível 4 | ``<h4>Título nível 4</h4>``
+
+ - \#\#\#\#\# Título nível 5 | ``<h5>Título nível 5</h5>``
+
+ - \#\#\#\#\#\# Título nível 6 | ``<h6>Título nível 6</h6>``
+
 
 ## Ênfase 
 
@@ -53,3 +49,5 @@ Para negrito, adicione dois asteriscos ou sublinhados antes e depois de uma pala
 Markdown | HTML | Saída Renderizada
 ---------| -----|------------------
 Eu gosto do texto em \*\*negrito\*\*. |  Eu gosto do texto em \<strong>negrito\</strong>. | Eu gosto do texto em **negrito**.
+
+https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
