@@ -19,7 +19,7 @@
 * Markdown é mais legível, mais fácil de ler e interpretar.
 
 ---
-## Títulos (`<h1>` a `<h6>`)
+## 1. Títulos (`<h1>` a `<h6>`)
 
 Para marcar um título, você vai usar **#** a quantidade de vezes que irá representar o nível do título. Exemplo:
 
@@ -38,7 +38,7 @@ Para marcar um título, você vai usar **#** a quantidade de vezes que irá repr
  - \#\#\#\#\#\# Título nível 6 | ``<h6>Título nível 6</h6>``
 
 
-## Ênfase
+## 2.  Ênfase
 
 Você pode dar ênfase, colocando o tex to em negrito ou itálico.
 
@@ -67,7 +67,7 @@ Markdown | HTML | Saída Renderizada
 Uso \*\*\*itálico e negrito\*\*\*. |  Uso \<em>\<strong>itálico e negrito\</strong>\</em> com \<strong>negrito\</strong>. | Uso ***itálico e negrito***..
 
 
-## Citações em bloco
+## 3. Citações em bloco
 
 Para criar uma citação em bloco, adicione um `>` na frente de um parágrafo.
 
@@ -90,7 +90,7 @@ A saída renderizada fica assim:
 >>O Campus Quixadá é o mais lindo da UFC.
 
 
-## Listas 
+## 4. Listas 
 
 Você pode organizar itens em listas ordenadas e não ordenadas.
 
@@ -147,6 +147,16 @@ A saída renderizada fica assim:
 - Item 1
   - Item 1.1
     -  Item 1.1.1
+
+## Links
+
+Para criar um link, coloque o texto do link entre colchetes  e siga-o imediatamente com o URL entre parênteses.
+
+    [Este é meu GitHub](https://github.com/RonierLima)
+
+A saída renderizada fica assim:
+
+[Este é meu GitHub](https://github.com/RonierLima)
   
 
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
