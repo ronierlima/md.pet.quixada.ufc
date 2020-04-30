@@ -49,5 +49,6 @@ Para negrito, adicione dois asteriscos ou sublinhados antes e depois de uma pala
 Markdown | HTML | Saída Renderizada
 ---------| -----|------------------
 Eu gosto do texto em \*\*negrito\*\*. |  Eu gosto do texto em \<strong>negrito\</strong>. | Eu gosto do texto em **negrito**.
+Prefiro o texto em \*itálico\*. |  Prefiro o texto em \<em>itálico\</em>. | Prefiro o texto em *itálico*.
 
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
