@@ -182,6 +182,27 @@ A saída renderizada fica assim:
 
 <ronier@email.com>
 
+## Imagens
+
+Para adicionar uma imagem, adicione um ponto de exclamação ´!´, seguido de texto alternativo entre colchetes e o caminho ou URL do recurso de imagem entre parênteses. Opcionalmente, você pode adicionar um título após o URL entre parênteses.
+
+    ![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub")
+
+A saída renderizada fica assim:
+
+![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub")
+
+### Imagens com link
+
+Para adicionar um link a uma imagem, coloque o Markdown da imagem entre colchetes e, em seguida, adicione o link entre parênteses.
+
+    [ ![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub") ]
+    (https://octodex.github.com/yaktocat/)
+
+A saída renderizada fica assim:
+
+[ ![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub") ]
+(https://octodex.github.com/yaktocat/)
 
 # Referências
 
