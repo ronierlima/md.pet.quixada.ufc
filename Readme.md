@@ -160,7 +160,7 @@ A saída renderizada fica assim:
 
 ### Adicionando títulos
 
-Opcionalmente, você pode adicionar um título para um link. Isso aparecerá como uma dica de ferramenta quando o usuário passar o mouse sobre o link. Para adicionar um título, coloque-o entre parênteses após o URL.
+Opcionalmente, você pode adicionar um título para um link. Isso aparecerá como uma dica de ferramenta quando o `usuário passar o mouse sobre o link`. Para adicionar um título, coloque-o entre parênteses após o URL.
 
 
     [Este é meu GitHub](https://github.com/RonierLima "Ronier Lima - GitHub")
@@ -169,6 +169,21 @@ A saída renderizada fica assim:
 
 [Este é meu GitHub](https://github.com/RonierLima "Ronier Lima - GitHub")
 
-  
+### URLs e endereços de email
 
-https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+Para transformar rapidamente um URL ou endereço de email em um link, coloque-o entre colchetes angulares.
+
+    <https://www.markdownguide.org>
+    <ronier@email.com>
+
+A saída renderizada fica assim:
+
+<https://www.markdownguide.org>
+
+<ronier@email.com>
+
+
+# Referências
+
+- https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+- https://www.markdownguide.org
