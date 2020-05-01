@@ -89,6 +89,44 @@ A saída renderizada fica assim:
 >Somos do PET - Sistemas de Informação
 >>O Campus Quixadá é o mais lindo da UFC.
 
+## Código
+
+Para denotar uma palavra ou frase como código, coloque-a em backticks (`).
+
+    No prompt de comando, digite `nano`.
+
+A saída renderizada fica assim:
+
+No prompt de comando, digite `nano`.
+
+## Blocos de código
+
+A sintaxe básica do Markdown permite criar blocos de código recuando linhas por quatro espaços ou uma guia. Se você achar isso inconveniente, tente usar blocos de códigos protegidos. Dependendo do seu processador ou editor do Markdown, você usará três reticulares ( ```) ou três retângulos ( ~~~) nas linhas antes e depois do bloco de código. A melhor parte? Você não precisa recuar nenhuma linha!
+
+    ```
+    printf("hello world");
+    ```
+
+
+A saída renderizada fica assim:
+
+```
+  printf("hello world");
+```
+
+### Realce de sintaxe
+
+    ```c
+    printf("hello world");
+    ```
+
+
+A saída renderizada fica assim:
+
+```c
+  printf("hello world");
+```
+
 
 ## 4. Listas 
 
@@ -111,14 +149,14 @@ A saída renderizada fica assim:
 ---
 
     1. Primeiro item  
-    2. Segundo item
-    3. Terceiro item
+    1. Segundo item
+    1. Terceiro item
    
 A saída renderizada fica assim:
 
 1. Primeiro item  
-2. Segundo item
-3. Terceiro item
+1. Segundo item
+1. Terceiro item
 
 ### Lista não ordenada 
 
