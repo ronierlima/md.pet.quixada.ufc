@@ -196,12 +196,11 @@ A saída renderizada fica assim:
 
 Para adicionar um link a uma imagem, coloque o Markdown da imagem entre colchetes e, em seguida, adicione o link entre parênteses.
 
-    [ ![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub") ]
-    (https://octodex.github.com/yaktocat/)
+    [![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub")](https://octodex.github.com/yaktocat/)
 
 A saída renderizada fica assim:
 
-[ ![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub") ]
+[![Yaktocat](assets/img/yaktocat.png "Yaktocat é uma versão do Octocat do GitHub")]
 (https://octodex.github.com/yaktocat/)
 
 # Referências
