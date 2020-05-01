@@ -127,7 +127,6 @@ A saída renderizada fica assim:
   printf("hello world");
 ```
 
-
 ## 4. Listas 
 
 Você pode organizar itens em listas ordenadas e não ordenadas.
@@ -242,5 +241,4 @@ A saída renderizada fica assim:
 
 # Referências
 
-- https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
-- https://www.markdownguide.org
+- <https://www.markdownguide.org>
