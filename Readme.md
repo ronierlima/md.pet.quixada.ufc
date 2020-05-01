@@ -77,7 +77,7 @@ A saída renderizada fica assim:
 
 > O Campus Quixadá é o mais lindo da UFC.
 
-## Citações em bloco aninhada
+## 4. Citações em bloco aninhada
 
 Para criar uma citação em bloco aninhada, adicione dois `>>` na frente de um parágrafo.
 
@@ -89,7 +89,7 @@ A saída renderizada fica assim:
 >Somos do PET - Sistemas de Informação
 >>O Campus Quixadá é o mais lindo da UFC.
 
-## Código
+## 5. Código
 
 Para denotar uma palavra ou frase como código, coloque-a em backticks (`).
 
@@ -99,7 +99,7 @@ A saída renderizada fica assim:
 
 No prompt de comando, digite `nano`.
 
-## Blocos de código
+## 6. Blocos de código
 
 A sintaxe básica do Markdown permite criar blocos de código recuando linhas por quatro espaços ou uma guia. Se você achar isso inconveniente, tente usar blocos de códigos protegidos. Dependendo do seu processador ou editor do Markdown, você usará três reticulares ( ```) ou três retângulos ( ~~~) nas linhas antes e depois do bloco de código. A melhor parte? Você não precisa recuar nenhuma linha!
 
@@ -127,7 +127,7 @@ A saída renderizada fica assim:
   printf("hello world");
 ```
 
-## 4. Listas 
+## 7. Listas 
 
 Você pode organizar itens em listas ordenadas e não ordenadas.
 
@@ -185,7 +185,7 @@ A saída renderizada fica assim:
   - Item 1.1
     -  Item 1.1.1
 
-## Links
+## 8. Links
 
 Para criar um link, coloque o texto do link entre colchetes  e siga-o imediatamente com o URL entre parênteses.
 
@@ -219,7 +219,7 @@ A saída renderizada fica assim:
 
 <ronier@email.com>
 
-## Imagens
+## 8. Imagens
 
 Para adicionar uma imagem, adicione um ponto de exclamação ´!´, seguido de texto alternativo entre colchetes e o caminho ou URL do recurso de imagem entre parênteses. Opcionalmente, você pode adicionar um título após o URL entre parênteses.
 
