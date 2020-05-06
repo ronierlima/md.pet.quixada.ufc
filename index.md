@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![Markdown](assets/img/markdown.png)
 
 # O que é Markdown?
