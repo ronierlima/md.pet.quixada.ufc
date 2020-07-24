@@ -2,7 +2,7 @@
 
 ## O que é o Google Drive ?
 
-![Google Drive](imagens/google-drive.png)
+![Google Drive](imagens/google-drive.png | width=100)
 
 - O Google Drive é uma ferramenta gratuita do Google que possui três principais funções:
 
